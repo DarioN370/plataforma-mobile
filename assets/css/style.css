@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --fonte-principal: "Poppins", sans-serif;
+
+    --cor-principal: #000000;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #86868B;
+    --cor-links: rgb(11, 103, 209);
+    --cor-links-hover: rgb(56, 81, 110);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-principal);
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.cabecalho{
+    background-color: var(--cor-principal);
+    padding: 18px;
+}
+
+.barra-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.lista-container{
+    display: flex;
+    gap: 65px;
+}
+
+.lista-item{
+    font-size: 1.5rem;
+}
+
+.lista-item a{
+    transition: 0.5s;
+}
+
+.lista-item a:hover{
+    color: var(--cor-terciaria);
+    font-size: 1.4rem;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#ambientes{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 75px;
+}
+
+.conteudo-container{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.direita-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-ambientes{
+    font-size: 1.7rem;
+    text-align: justify;
+}
+
+.botao-saiba-mais{
+    margin-top: 24px;
+}
+
+.saiba-mais-texto{
+    font-size: 1.7rem;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
+    transition: 0.5s;
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+#linguagens{
+    margin-top: 180px;
+}
+
+.topo-container{
+    display: flex;
+    align-items: center;
+    gap: 170px;
+}
+
+.linguagens-conteudo{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.paragrafos-add{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.linguagens-paragrafos{
+    font-size: 1.5rem;
+    text-align: justify; 
+}
+
+#ferramentas{
+    margin-top: 180px;
+}
+
+.ferramentas-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-container-ferramentas{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.introducao-ferramentas{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.conteudo-ferramentas{
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+#caracteristicas{
+    margin-top: 180px;
+}
+
+.intro-caracteristicas{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.caracteristicas-ios{
+    display: flex;
+}
+
+.container-lista-ios{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.container-lista-android{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
