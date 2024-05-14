@@ -201,9 +201,11 @@ main{
 
     .barra-nav{
         width: 100%;
+        display: flex;
+        justify-content: start;
     }
 
-    .hide-on-med-and-down{
+    .lista-container{
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -218,10 +220,112 @@ main{
     }
 
     #ambientes{
-
+        width: 100%;
+        margin-top: 70px;
     }
 
+    .titulo{
+        font-size: 2.75rem;
+        margin-bottom: 30px;
+    }
 
+    .conteudo-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .conteudo-ambientes{
+        padding: 30px;
+        text-align: start;
+        font-size: 1.4rem;
+    }
+
+    .botao-saiba-mais{
+        display: none;
+        margin-top: 0px;
+        padding-left: 30px;
+    }
+
+    #linguagens{
+        margin-top: 70px;
+    }
+
+    .topo-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .linguagens-conteudo{
+        padding: 30px;
+        text-align: start;
+        font-size: 1.4rem;
+    }
+
+    .swift{
+        display: none;
+    }
+
+    .linguagens-conteudo{
+        font-size: 1.4rem;
+        text-align: start;
+    }
+
+    .paragrafos-add{
+        margin-top: 30px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .linguagens-paragrafos{
+        font-size: 1.4rem;
+        text-align: start; 
+    }
+
+    #ferramentas{
+        margin-top: 70px;
+    }
+
+    .ferramentas-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vsLogo{
+        height: 300px;
+    }
+
+    .conteudo-container-ferramentas{
+        padding: 30px;
+    }
+
+    .introducao-ferramentas{
+        font-size: 1.4rem;
+        text-align: start;
+    }
+    
+    .conteudo-ferramentas{
+        font-size: 1.4rem;
+        text-align: start;
+    }
+
+    .intro-caracteristicas{
+        text-align: start;
+        padding: 30px;
+    }
+
+    .container-lista-ios{
+        text-align: start;
+        padding: 30px;
+    }
+
+    .container-lista-android{
+        text-align: start;
+        padding: 30px;
+    }
 }
 
 
