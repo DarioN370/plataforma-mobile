@@ -29,9 +29,9 @@ a{
     color: var(--cor-secundaria);
 }
 
-.cabecalho{
+#cabecalho{
     background-color: var(--cor-principal);
-    padding: 18px;
+    padding: 10px;
 }
 
 .barra-nav{
@@ -192,6 +192,36 @@ main{
     text-align: center;
     font-size: 2rem;
     margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    #cabecalho{
+        width: 100%;
+    }
+
+    .barra-nav{
+        width: 100%;
+    }
+
+    .hide-on-med-and-down{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .lista-item{
+        font-size: 1.2rem;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    #ambientes{
+
+    }
+
+
 }
 
 
